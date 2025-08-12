@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "Luis Aviles",
+    "role": "Frontend Developer",
+    "location": "Nicaragua",
+    "email": "luis.aviles@example.com",
+    "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
+    "bio": "Passionate about creating interactive web applications with a focus on performance and accessibility.",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/luisaviles",
+      "github": "https://github.com/luisaviles"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Andrea Lopez",
+    "role": "UI/UX Designer",
+    "location": "Mexico",
+    "email": "andrea.lopez@example.com",
+    "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+    "bio": "Designing user-centered experiences with a clean, modern aesthetic.",
+    "skills": ["Figma", "Adobe XD", "Sketch", "Prototyping"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/andrealopez",
+      "dribbble": "https://dribbble.com/andrealopez"
+    }
+  },
+  {
+    "id": 3,
+    "name": "John Smith",
+    "role": "Backend Engineer",
+    "location": "USA",
+    "email": "john.smith@example.com",
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "bio": "Specializes in scalable backend architectures and cloud infrastructure.",
+    "skills": ["Node.js", "Express", "MongoDB", "AWS"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/johnsmith",
+      "github": "https://github.com/johnsmith"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Maria Fernandez",
+    "role": "Product Manager",
+    "location": "Spain",
+    "email": "maria.fernandez@example.com",
+    "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+    "bio": "Driven by a passion for delivering value through clear product roadmaps and team collaboration.",
+    "skills": ["Agile", "Scrum", "Roadmapping", "Stakeholder Management"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/mariafernandez"
+    }
+  },
+  {
+    "id": 5,
+    "name": "David Chen",
+    "role": "Data Scientist",
+    "location": "Singapore",
+    "email": "david.chen@example.com",
+    "avatar": "https://randomuser.me/api/portraits/men/41.jpg",
+    "bio": "Loves finding stories in data and building machine learning models.",
+    "skills": ["Python", "Pandas", "Machine Learning", "Data Visualization"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/davidchen",
+      "github": "https://github.com/davidchen"
+    }
+  }
+]
