@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Luis Aviles",
+    "name": "Miguel Boldy",
     "role": "Frontend Developer",
-    "location": "Nicaragua",
-    "email": "luis.aviles@example.com",
+    "location": "Colombia",
+    "email": "miguel.boldy@example.com",
     "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
     "bio": "Passionate about creating interactive web applications with a focus on performance and accessibility.",
     "skills": ["HTML", "CSS", "JavaScript", "React"],

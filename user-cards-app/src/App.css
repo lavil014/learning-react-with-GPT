@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f6fa;
+  background-color: #f3f4f9;
   margin: 0;
   padding: 20px;
 }
@@ -47,6 +47,14 @@ body {
   font-size: 0.9rem;
   color: #555;
   margin: 4px 0;
+}
+
+.userCard button{
+  background-color: #333;
+  color: #f5f6fa;
+  padding: 0.2rem 0.8rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
 }
 
 .userCard .skills li{
