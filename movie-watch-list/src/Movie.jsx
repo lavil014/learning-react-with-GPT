@@ -1,12 +1,14 @@
 import React from "react";
+import '../src/stylesheets/moviecard.css';
 
-const Movie = ({title,poster,director})=>{
+const Movie = ({title,poster,director,year,genre,rating})=>{
     
   return(
     <div className="movieCard">
-      <h3>{title}</h3>
       <img src={poster} alt={title}/>
+      <h3>{title}</h3>
       <p>{director}</p>
+      <p>{genre}</p>
     </div>
   )
 } 

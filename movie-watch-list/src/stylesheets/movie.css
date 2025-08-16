@@ -1,0 +1,9 @@
+.MovieContainer {
+  background-color: rgb(238, 241, 243);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 3rem;
+}
+

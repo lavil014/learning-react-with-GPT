@@ -1,22 +1,72 @@
 [
   {
     "id": 1,
-    "title": "Inception",
-    "poster": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg",
-    "watched": true,
-    "director": "Christopher Nolan"
+    "title": "Mission: Impossible – The Final Reckoning",
+    "year": 2025,
+    "genre": ["Action", "Adventure"],
+    "director": "Christopher McQuarrie",
+    "poster": "https://tse4.mm.bing.net/th/id/OIP.cPcyJ6e_qvjfc4TzNv2m7QHaOG?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 8.5,
+    "description": "Ethan Hunt returns for the ultimate mission, facing new threats and impossible challenges across the globe."
   },
   {
     "id": 2,
-    "title": "Interstellar",
-    "poster": "",
-    "watched": false,
-    "director": "Christopher Nolan"
+    "title": "Thunderbolts*",
+    "year": 2025,
+    "genre": ["Superhero", "Action"],
+    "director": "Jake Schreier",
+    "poster": "https://tse2.mm.bing.net/th/id/OIP.OorZHFu6-7ZGx-PZrhX6zAHaJP?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 7.8,
+    "description": "A team of antiheroes is assembled for covert missions, testing their loyalty and challenging the definition of heroism."
   },
   {
     "id": 3,
-    "title": "Unknown Movie",
-    "poster": "",
-    "watched": false
+    "title": "Lilo & Stitch",
+    "year": 2025,
+    "genre": ["Family", "Adventure"],
+    "director": "Dean Fleischer Camp",
+    "poster": "https://tse2.mm.bing.net/th/id/OIP.oxZjy-tYHHHl5AcBOvaxUAHaJQ?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 8.2,
+    "description": "A heartwarming live-action adaptation of the classic story about a spirited girl and her mischievous alien friend."
+  },
+  {
+    "id": 4,
+    "title": "Final Destination: Bloodlines",
+    "year": 2025,
+    "genre": ["Horror", "Thriller"],
+    "director": "Zach Lipovsky & Adam B. Stein",
+    "poster": "https://tse4.mm.bing.net/th/id/OIP.BhKSYtuXUwjDKAfcPLOYfAHaLH?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 6.9,
+    "description": "Death comes in unpredictable ways as a group of friends struggle to escape their fates in this suspenseful horror thriller."
+  },
+  {
+    "id": 5,
+    "title": "The Conjuring: Last Rites",
+    "year": 2025,
+    "genre": ["Horror", "Supernatural"],
+    "director": "Michael Chaves",
+    "poster": "https://tse2.mm.bing.net/th/id/OIP.BhQ34rFdgv0ToIBvrGel5wHaHS?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 7.5,
+    "description": "Paranormal investigators face their most chilling case yet as they confront malevolent spirits in a haunted household."
+  },
+  {
+    "id": 6,
+    "title": "The Running Man",
+    "year": 2025,
+    "genre": ["Action", "Thriller", "Sci-Fi"],
+    "director": "Edgar Wright",
+    "poster": "https://tse4.mm.bing.net/th/id/OIP.qg9hjxNSOTp3_yKiidQGiQAAAA?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 8.0,
+    "description": "In a dystopian future, contestants fight for survival in a deadly game show, where every step could be their last."
+  },
+  {
+    "id": 7,
+    "title": "Tron: Ares",
+    "year": 2025,
+    "genre": ["Sci-Fi", "Action"],
+    "director": "Joachim Rønning",
+    "poster": "https://tse1.mm.bing.net/th/id/OIP.qCCht_GpXR7dMrcw9N_sdQHaLH?w=200&h=300&c=7&r=0&o=5&pid=1.7",
+    "rating": 7.9,
+    "description": "The digital frontier expands as a new hero navigates the virtual world to challenge an emerging cyber threat."
   }
 ]
