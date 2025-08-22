@@ -1,41 +1,53 @@
 import React from "react";
-import Greeting from "./Greeting";
-import Hobbies from "./Hobbies";
 
-function App(){
-  
-  const name = 'Luis';
-  const date = new Date();
-  const todaysDate = date.toDateString();
-  const today = date.toLocaleDateString("en-US", {weekday: 'long'});
-  const hours = date.getHours();
-  let currentTimer = '';
-  const andreasHobbies = ['Tiktoking', 'Sleeping', 'Cooking', 'Napping'];
-  
-  if(hours <12){
-    currentTimer = 'Good morning';
-  }else if(hours <18 ){
-    currentTimer = 'Good afternoon';
-  } else{
-    currentTimer = 'Good evening';
+import { useState } from "react";
+
+
+
+const App = ()=>{
+     
+  const [count, setCount] = useState(0);
+
+  const increaseCount = ()=>{
+    setCount ((prev)=> prev + 1);
   }
 
+  const decreaseCount = ()=>{
+
+    if(count <= 0){
+      return
+    }
+
+    setCount ((prev)=> prev - 1)
+  }
+
+  const doubleCount = ()=>{
+    setCount ((prev)=> prev * 2)
+  }
+  
+  const resetCount = ()=>{
+    setCount(0);
+  }
 
   return(
-    <div>
+    <div 
+    style={
+      {
+        display: "flex",
+        alignItems:"center",
+        justifyContent:"center",
+        padding: "1rem",
+        gap: "1rem"
+      }
+    }>
       
-      {/*<Greeting greet={currentTimer} greetDate={todaysDate} name ={name} day={today}/> */}
-
-      <Greeting userInfo={{name, greet:currentTimer, greetDate:todaysDate, day:today}}/>
-      <p>Welcome to my first React app.</p>
-      <p>Below you will find my hobbies</p>
-      <Hobbies hobbies={{hob1 : 'Coding', hob2:'Gaming', hob3: 'Excercising', hob4:'Sleeping'}}/>
-      <ul>
-        {andreasHobbies.map((hobbie, index)=>{
-          return (<li key={index}>{hobbie}</li>)
-        })}
-      </ul>
+      <button onClick={increaseCount}>+</button>
+      <p>{count}</p>
+      <button onClick={decreaseCount}>-</button>
+      <button onClick={doubleCount}>*2</button>
+      <button onClick={resetCount}>Reset count</button>
     </div>
+    
   )
 }
 
